@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>ShusTravel | Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav
+      class="navbar fixed-top navbar-color-ghost"
+      data-startColor="navbar-color-ghost"
+      data-intoSize="navbar-size-md"
+    >
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png"/></a>
+
+      <div class="menu-toggle hamburger" id="hamburger-11">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+
+      <div class="items">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <!-- DropDown Menu For Tours -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle active"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              tours
+            </a>
+            <div
+              class="dropdown-menu dropdown-nav"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item active" href="packages.html">packages</a>
+              <a class="dropdown-item" href="cruises.html">cruises</a>
+              <a class="dropdown-item" href="services.html">services</a>
+            </div>
+          </li>
+          <li><a href="about-egypt.html">egypt</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--OUR PACKAGES-->
+    <section class="packages-head">
+      <div class="img-packages">
+        <h2 class="h-head">
+          our packages in <span class="h-colored">egypt</span>
+        </h2>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+          maxime nam molestiae? Necessitatibus, maxime corporis omnis nobis
+          libero facilis, possimus vitae sunt, eligendi autem saepe quam
+          consectetur beatae rem ducimus!
+        </p>
+        <h2>
+          <span class="h-colored">Tell Us, </span> where would you like to go?
+        </h2>
+
+        <form action="#" class="package-form" id="pack-form">
+          <select name="cities">
+            <option value="" disabled value>Destination</option>
+            <option value="cairo&giza">Cairo&Giza</option>
+            <option value="alexandria">Alexandria</option>
+            <option value="luxor&aswan">Luxor&Aswan</option>
+            <option value="sharm">Sharm El-Sheikh</option>
+            <option value="hurghada">Hurghada</option>
+            <option value="marsa">Marsa Alam</option>
+          </select>
+
+          <input type="date" class="date" name="date" placeholder="Date" onfocus="(this.type='date')" onblur="(this.type='text')"/>
+
+          <select name="num" id="numofperson">
+            <option value="" disabled>persons</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="more">More than 6 persons</option>
+          </select>
+          <button class="btn btn-tour">Send</button>
+        </form>
+        <hr />
+      </div>
+    </section>
+
+    <section class="packages">
+      <div class="container">
+        <div class="row">
+          <!-- pack 1 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 300
+              </h5>
+              <img src="images/card1.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">cairo by night</h5>
+
+                <h5 class="card-title mb-2">1 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- pack 2 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 500
+              </h5>
+              <img src="images/card2.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo & giza</h5>
+                <h5 class="card-title">cairo & giza</h5>
+
+                <h5 class="card-title mb-2">2 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- pack 3 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 1100
+              </h5>
+              <img src="images/card3.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">aswan</h5>
+                <h5 class="card-title">luxor & aswan</h5>
+
+                <h5 class="card-title mb-2">4 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- pack 4-->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 600
+              </h5>
+              <img src="images/card4.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">luxor</h5>
+                <h5 class="card-title">luxor</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- pack 5 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 300
+              </h5>
+              <img src="images/card5.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">red sea</h5>
+                <h5 class="card-title">sharm el-sheikh</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- pack 6 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 300
+              </h5>
+              <img src="images/card6.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">cairo by night</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- pack 7 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 300
+              </h5>
+              <img src="images/card7.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">cairo by night</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <!-- pack 8 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 300
+              </h5>
+              <img src="images/card8.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">cairo by night</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/func.js"></script>
+  </body>
+</html>

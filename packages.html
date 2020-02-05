@@ -64,13 +64,13 @@
     </nav>
 
     <!--OUR PACKAGES-->
-    <section class="packages-head">
+    <header class="packages-head">
       <div class="img-packages">
         <h2 class="h-head">
           our packages in <span class="h-colored">egypt</span>
         </h2>
       </div>
-    </section>
+    </header>
 
     <section class="info">
       <div class="container">
@@ -83,31 +83,50 @@
         <h2>
           <span class="h-colored">Tell Us, </span> where would you like to go?
         </h2>
+        <form action="#" id="pack-form" class="row">
+          <div class="input-group mb-3 col-md-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01"><i class="fas fa-map"></i></label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected disabled>Destination</option>
+              <option value="cairo&giza">Cairo&Giza</option>
+              <option value="luxor&aswan">Luxor&Aswan</option>
+              <option value="sharm">Sharm El-sheikh</option>
+              <option value="hurghada">Hurghada</option>
+              <option value="marsa">Marsa Alam</option>
+            </select>
+          </div>
 
-        <form action="#" class="package-form" id="pack-form">
-          <select name="cities">
-            <option value="" disabled value>Destination</option>
-            <option value="cairo&giza">Cairo&Giza</option>
-            <option value="alexandria">Alexandria</option>
-            <option value="luxor&aswan">Luxor&Aswan</option>
-            <option value="sharm">Sharm El-Sheikh</option>
-            <option value="hurghada">Hurghada</option>
-            <option value="marsa">Marsa Alam</option>
-          </select>
+          <div class="input-group mb-3 col-md-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect02"><i class="fas fa-user-friends"></i></label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect02">
+              <option selected disabled>Persons</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+              <option value="6">Six</option>
+              <option value="7">Seven</option>
+              <option value="8">Eight</option>
+              <option value="9">Nine</option>
+            </select>
+          </div>
 
-          <input type="date" class="date" name="date" placeholder="Date" onfocus="(this.type='date')" onblur="(this.type='text')"/>
+          <div class="input-group mb-3 col-md-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><i class="fas fa-calendar-alt"></i></span>
+            </div>
+            <input type="date" class="form-control" aria-describedby="basic-addon1">
+          </div>
 
-          <select name="num" id="numofperson">
-            <option value="" disabled>persons</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="more">More than 6 persons</option>
-          </select>
-          <button class="btn btn-tour">Send</button>
+          <div class="input-group mb-3 col-md-3">
+            
+            <input type="submit" value="send" class="form-control btn btn-primary">
+          </div>
         </form>
         <hr />
       </div>

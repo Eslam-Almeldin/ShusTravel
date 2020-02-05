@@ -1,65 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ShusTravel | Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-  <title>ShusTravel | Home</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav
+      class="navbar fixed-top navbar-color-ghost"
+      data-startColor="navbar-color-ghost"
+      data-intoSize="navbar-size-md"
+    >
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png"/></a>
 
-<body>
-  <!-- NAVBAR SECTION -->
-  <nav class="navbar fixed-top navbar-color-ghost" data-startColor="navbar-color-ghost" data-intoSize="navbar-size-md">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+      <div class="menu-toggle hamburger" id="hamburger-11">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
 
-    <div class="menu-toggle hamburger" id="hamburger-11">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </div>
+      <div class="items">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <!-- DropDown Menu For Tours -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle active"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              tours
+            </a>
+            <div
+              class="dropdown-menu dropdown-nav"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item" href="packages.html">packages</a>
+              <a class="dropdown-item active" href="cruises.html">cruises</a>
+              <a class="dropdown-item" href="services.html">services</a>
+            </div>
+          </li>
+          <li><a href="about-egypt.html">egypt</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="items">
-      <ul>
-        <li><a href="index.html" class="active">home</a></li>
-        <!-- DropDown Menu For Tours -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            tours
+    <!-- CRZ HEADER -->
+    <header class="crz-head">
+      <div class="img-crz">
+        <h2 class="h-head">nile<span class="h-colored"> cruises</span></h2>
+      </div>
+    </header>
+
+    <section class="crz-info">
+      <div class="container">
+        <p class="text-center">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nam
+          voluptatum nobis corrupti obcaecati fugit consequatur neque quidem.
+          Inventore nostrum aperiam dolore magnam hic provident, beatae quidem
+          eligendi veniam omnis.
+        </p>
+
+        <div class="row">
+          <!-- crz 1 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/crz1.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo, giza</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
+
+                <h5 class="card-title mb-2">9 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </a>
-          <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="packages.html">packages</a>
-            <a class="dropdown-item" href="services.html">services</a>
-          </div>
-        </li>
-        <!-- DropDown Menu For About -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            about
+
+          <!-- crz 2 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 980
+              </h5>
+              <img src="images/crz2.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">Luxor&Aswan</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </a>
-          <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="about-us.html">about us</a>
-            <a class="dropdown-item" href="about-egypt.html">about egypt</a>
-          </div>
-        </li>
-        <li><a href="contact.html">contact us</a></li>
-      </ul>
-    </div>
-  </nav>
 
-  
-  <!-- FOOTER SECTION -->
+          <!-- crz 3 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 850
+              </h5>
+              <img src="images/crz3.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">Luxor&Aswan</h5>
 
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
 
+          <!-- crz 4 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 850
+              </h5>
+              <img src="images/crz4.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">Luxor&Aswan</h5>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/func.js"></script>
-</body>
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
 
+          <!-- crz 5 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 850
+              </h5>
+              <img src="images/crz1.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">Luxor&Aswan</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <!-- crz 6 -->
+          <a href="package-details.html" class="col-md-4">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 850
+              </h5>
+              <img src="images/crz1.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">Luxor&Aswan</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/func.js"></script>
+  </body>
 </html>

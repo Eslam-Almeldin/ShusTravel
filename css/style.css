@@ -122,11 +122,13 @@ h6 {
 }
 
 .dropdown-menu .dropdown-item:hover,
-.dropdown-menu .dropdown-item:active {
+.dropdown-menu .dropdown-item.active {
   background: #2da8e3;
   color: #fff;
   border-radius: 0;
 }
+
+
 
 /* NAVBAR SECTION */
 .navbar {
@@ -400,7 +402,7 @@ h6 {
 .packages-head .img-packages .h-head {
   font-size: 55px;
   text-transform: capitalize;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.8);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .info {
@@ -416,83 +418,154 @@ h6 {
   font-size: 35px;
   padding-bottom: 10px;
 }
-
-.info .package-form select {
-  border: 1px solid var(--secound-color);
-  margin: 10px;
-  padding: 5px;
-  -webkit-appearance: none;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 5px;
-  text-align: center;
-  align-items: center;
-  outline: none;
-  cursor: pointer;
-}
-input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-}
-.info .package-form .date{
-  border: 1px solid var(--secound-color);
-  margin: 10px;
-  padding: 8px;
-  border-radius: 5px;
-  -webkit-appearance: none;
-  outline: none;
-}
-
-.info .btn-tour {
-  padding: 5px 39px;
-  border-radius: 8px;
-  margin-bottom: 5px;
-}
-
 /* ********************************************************** */
 /* PACKAGE-DETAILS PAGE */
 .package-head {
-    position: relative;
-    background: url(../images/packdetails.jpg);
-    background-size: cover;
-    height: 500px;
-    overflow: hidden;
-  }
+  position: relative;
+  background: url(../images/packdetails.jpg);
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+
+.package-head .img-pack {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.nav-details {
+  box-shadow: none;
+  font-size: 20px;
+  background: #eaeaea;
+}
+
+.nav-details .nav-item .nav-link {
+  text-decoration: none;
+  color: var(--third-color);
+}
+.nav-details .nav-item .nav-link:hover {
+  color: var(--first-color);
+  transition: 0.3s ease-in-out;
+}
+.breadcrumb {
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.breadcrumb a {
+  color: var(--first-color);
+  font-size: 19px;
+}
+.breadcrumb-item.active {
+  color: var(--secound-color);
+  font-size: 19px;
+}
+
+.pack-detail {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: var(--first-color);
+}
+.day {
+  margin-bottom: 15px;
+  color: var(--secound-color);
+  text-transform: capitalize;
+}
+
+.pack-detail ul li {
+  font-size: 17px;
+}
+
+.fa-plus-circle {
+  color: green;
+}
+.fa-minus-circle {
+  color: red;
+}
+
+.form-reg {
+  border: 1px solid var(--secound-color);
+  margin: 30px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form-reg button {
   
-  .package-head .img-pack {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-  }
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-  .package-info
-  {
-      padding: 20px 20px;
-  }
-
-  .package-info .row> div
-  {
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: capitalize;
-  }
-
-  .package-info .row 
-  
 /* ********************************************************** */
-
 /* SERVICES PAGE */
+.services-head {
+  position: relative;
+  background: url(../images/services.jpg);
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
 
+.services-head .img-services {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.services-head .img-services .h-head {
+  font-size: 55px;
+  text-transform: capitalize;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.serv-component p {
+  margin-bottom: 50px;
+}
+
+.serv-component .reg-form button
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 /* ********************************************************** */
-
 /* CRUISES PAGE */
+.crz-head {
+  position: relative;
+  background: url(../images/nile\ cruise.jpg);
+  background-size: cover;
+  height: 700px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.crz-head .img-crz {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.crz-head .img-crz .h-head {
+  font-size: 55px;
+  text-transform: capitalize;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.crz-info p {
+  padding-bottom: 50px;
+}
 
 /* ********************************************************** */
 /* ABOUT EGYPT PAGE */
 .egypt p {
-  border-bottom: 1px dotted;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;

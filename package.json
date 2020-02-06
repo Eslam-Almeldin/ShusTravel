@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Eslam-Mohamed-Mooo/ShusTravel/issues"
   },
-  "homepage": "https://github.com/Eslam-Mohamed-Mooo/ShusTravel#readme",
+  "homepage": "https://shustravel.github.io/ShusTravel",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }

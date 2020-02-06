@@ -1,0 +1,23 @@
+{
+  "name": "ShusTravel",
+  "version": "1.0.0",
+  "description": "ShusTravel is a website dedicated to travel agency.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ShusTravel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eslam-Mohamed-Mooo/ShusTravel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eslam-Mohamed-Mooo/ShusTravel/issues"
+  },
+  "homepage": "https://github.com/Eslam-Mohamed-Mooo/ShusTravel#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

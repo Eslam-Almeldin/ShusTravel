@@ -101,6 +101,31 @@ const prevSlide = () => {
         }
     setTimeout(() => current.classList.remove('current'));
 }
+
+// Button Events
+next.addEventListener('click', e =>{
+    nextSlide();
+    if (auto) {
+     clearInterval(slideInterval);
+    slideInterval = setInterval(nextSlide, intervalTime);
+}
+});
+
+prev.addEventListener('click', e =>{
+    prevSlide();
+    if (auto) {
+     clearInterval(slideInterval);
+    slideInterval = setInterval(nextSlide, intervalTime);
+}
+});
+
+
+//Auto Slide
+if(auto) {
+    //Run next Slide at interval time
+    slideInterval = setInterval(nextSlide, intervalTime);
+}
+
 //Mobile NavBar
 
 $(document).ready(function(){

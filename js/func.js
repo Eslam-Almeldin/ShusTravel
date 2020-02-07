@@ -60,47 +60,11 @@ setInterval(function () {
 }, 100);
 
 
-  // SLIDER SECTION
+// AUTO SLIDE
+$('.carousel').carousel({
+    interval: 3000
+  })
 
-  const slides = document.querySelectorAll('.slide');
-const next = document.querySelector('#next');
-const prev = document.querySelector('#prev');
-const auto = true; //to turn off the automatic slide make if false
-const intervalTime = 5000; // 5s for every image slide
-let slideInterval;
-
-const nextSlide = () => {
-    //Get current class
-    const current = document.querySelector('.current');
-    //Remove current class
-    current.classList.remove('current');
-    //Check for next slide
-    if (current.nextElementSibling) {
-        //Add current to Next sibling
-        current.nextElementSibling.classList.add('current');
-        } else {
-            //Add current to Start
-            slides[0].classList.add('current');
-        }
-    setTimeout(() => current.classList.remove('current'));
-}
-
-
-const prevSlide = () => {
-    //Get current class
-    const current = document.querySelector('.current');
-    //Remove current class
-    current.classList.remove('current');
-    //Check for prev slide
-    if (current.previousElementSibling) {
-        //Add current to prev sibling
-        current.previousElementSibling.classList.add('current');
-        } else {
-            //Add current to Last
-            slides[slides.length - 1].classList.add('current');
-        }
-    setTimeout(() => current.classList.remove('current'));
-}
 //Mobile NavBar
 
 $(document).ready(function(){
@@ -109,8 +73,8 @@ $(document).ready(function(){
       $('.items').toggleClass("active");
     });
   });
-
+ 
   // //Copyright
-// var copyright = document.getElementById('copy-date');
+var copyright = document.getElementById('copy-date');
 
-// copyright.textContent = new Date().getFullYear();
+copyright.textContent = new Date().getFullYear();

@@ -1,8 +1,3 @@
-/**
- * @version 0.0.1
- * @author "Eslam Mohamed"
- * @copyright "2020"
- */
 //Scroll NavBar
 
 var navBar = $('.navbar'),

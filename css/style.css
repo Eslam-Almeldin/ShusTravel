@@ -137,6 +137,7 @@ h6 {
   box-sizing: border-box;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-family: "Acme", sans-serif;
+  
 }
 
 .navbar .navbar-brand img {
@@ -292,74 +293,15 @@ h6 {
 }
 
 /* SLIDER SECTION */
-.slider {
-  position: relative;
-  overflow: hidden;
-  height: 800px;
-  width: 100%;
+.carousel
+{
+  margin-top: 80px;
 }
-
-.slide {
-  position: absolute;
-  top: 81px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.4s ease-in-out;
-}
-
-.slide.current {
-  opacity: 1;
-}
-
-.buttons button#next {
-  position: absolute;
-  top: 50%;
-  right: 30px;
-}
-
-.buttons button#prev {
-  position: absolute;
-  top: 50%;
-  left: 30px;
-}
-
-.buttons button {
-  border: 2px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  cursor: pointer;
-  padding: 13px 18px;
-  border-radius: 50%;
-  outline: none;
-}
-
-.buttons button:hover {
-  background-color: #fff;
-  color: #333;
-}
-
-/*Background Images*/
-.slide:first-child {
-  background: url("../images/slide1.jpg") no-repeat center center/cover;
-}
-
-.slide:nth-child(2) {
-  background: url("../images/slide2.jpg") no-repeat center center/cover;
-}
-
-.slide:nth-child(3) {
-  background: url("../images/slide3.jpg") no-repeat center center/cover;
-}
-
-.slide:nth-child(4) {
-  background: url("../images/slide4.jpg") no-repeat center center/cover;
-}
-
+ 
 /* DESTINATION SECTION */
 .destination {
   padding: 20px;
+   
 }
 
 /* ABOUT US SECTION */
@@ -376,20 +318,111 @@ h6 {
 
 .one-dy-tor {
   padding-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 /* FOOTER SECTION */
+footer
+{
+ padding: 20px;
+ background:#dbe6f7;
+ width: 100%;
+}
+
+.tag-head
+{
+  color: var(--first-color);
+  font-family: "Acme", sans-serif;
+}
+
+.section
+{
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.section ul li a
+{
+  color: var(--third-color);
+  font-weight: 500;
+
+}
+ 
+footer .social-media
+{
+  display: inline-flex;
+  padding-right: 33px;
+}
+
+footer .social-media li
+{
+  margin: 5px;
+}
+
+footer .social-media li a i
+{
+  color: #AAA;
+}
+
+
+footer .social-media li a .fa-facebook-square:hover
+{
+  color: #3b5998;
+  transition: 0.7s ease-in-out;
+}
+
+footer .social-media li a .fa-twitter-square:hover
+{
+  color: #1DA1F2;
+  transition: 0.7s ease-in-out;
+}
+
+footer .social-media li a .fa-instagram:hover
+{
+  color: #833AB4;
+  transition: 0.7s ease-in-out;
+}
+
+
+.footer-bottom
+{
+  padding: 15px;
+  background: #597b8c;
+}
+
+.footer-bottom ul
+{
+  display: inline-flex;
+}
+.footer-bottom ul li
+{
+  padding: 10px;
+}
+.footer-bottom ul li a
+{
+  color: #FFF;
+}
+
+.footer-bottom .copyright
+{
+  color: #FFF;
+  font-weight: 500;
+}
+ 
+ 
+
 
 /* ********************************************************** */
 
 /* PACKAGES PAGE */
 .packages-head {
   position: relative;
-  background: url(../images/packages.jpg);
+  background: url(../images/packages.jpg); 
   background-size: cover;
   height: 500px;
   overflow: hidden;
-}
+  margin-top: 80px;
+} 
 
 .packages-head .img-packages {
   position: absolute;
@@ -397,14 +430,16 @@ h6 {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-}
+} 
 
 .packages-head .img-packages .h-head {
   font-size: 55px;
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
-}
+} 
+ 
 
+ 
 .info {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -469,6 +504,10 @@ h6 {
   padding-bottom: 15px;
   color: var(--first-color);
 }
+.packages
+{
+  margin-bottom: 80px;
+}
 .day {
   margin-bottom: 15px;
   color: var(--secound-color);
@@ -509,6 +548,7 @@ h6 {
   height: 500px;
   overflow: hidden;
   margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .services-head .img-services {
@@ -524,7 +564,10 @@ h6 {
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
-
+.serv-component
+{
+  margin-bottom: 80px;
+}
 .serv-component p {
   margin-bottom: 50px;
 }
@@ -543,6 +586,7 @@ h6 {
   height: 700px;
   overflow: hidden;
   margin-bottom: 40px;
+  margin-top: 80px;
 }
 
 .crz-head .img-crz {
@@ -558,13 +602,24 @@ h6 {
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
-
+.crz-info
+{
+  margin-bottom: 80px;
+}
 .crz-info p {
   padding-bottom: 50px;
 }
 
 /* ********************************************************** */
 /* ABOUT EGYPT PAGE */
+.egypt
+{
+  margin-bottom: 80px;
+}
+.egypt img
+{
+  margin-top: 80px;
+}
 .egypt p {
   margin-left: auto;
   margin-right: auto;

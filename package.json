@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eslam-Mohamed-Mooo/ShusTravel.git"
+    "url": "git+https://shustravel.github.io/ShusTravel.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Eslam-Mohamed-Mooo/ShusTravel/issues"
+    "url": "https://shustravel.github.io/ShusTravel/issues"
   },
   "homepage": "https://shustravel.github.io/ShusTravel",
   "dependencies": {

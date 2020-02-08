@@ -6,59 +6,129 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>ShusTravel | Home</title>
+  <title>ShusTravel | Contact Us</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <!-- NAVBAR SECTION -->
-  <nav
-  class="navbar fixed-top navbar-color-ghost"
-  data-startColor="navbar-color-ghost"
-  data-intoSize="navbar-size-md"
->
-  <a class="navbar-brand" href="index.html"><img src="images/logo.png"/></a>
+  <nav class="navbar fixed-top navbar-color-ghost" data-startColor="navbar-color-ghost" data-intoSize="navbar-size-md">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
 
-  <div class="menu-toggle hamburger" id="hamburger-11">
-    <span class="line"></span>
-    <span class="line"></span>
-    <span class="line"></span>
-  </div>
+    <div class="menu-toggle hamburger" id="hamburger-11">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
 
-  <div class="items">
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <!-- DropDown Menu For Tours -->
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="navbarDropdown"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          tours
-        </a>
-        <div
-          class="dropdown-menu dropdown-nav"
-          aria-labelledby="navbarDropdown"
-        >
-          <a class="dropdown-item" href="packages.html">packages</a>
-          <a class="dropdown-item" href="cruises.html">cruises</a>
-          <a class="dropdown-item" href="services.html">services</a>
+    <div class="items">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <!-- DropDown Menu For Tours -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            tours
+          </a>
+          <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="packages.html">packages</a>
+            <a class="dropdown-item" href="cruises.html">cruises</a>
+            <a class="dropdown-item" href="services.html">services</a>
+          </div>
+        </li>
+        <li><a href="about-egypt.html">egypt</a></li>
+        <li><a href="contact.html" class="active">contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CONTACT US -->
+  <header class="contact-head">
+    <div class="img-contact">
+      <h2 class="h-head">contact<span class="h-colored"> us</span></h2>
+    </div>
+  </header>
+
+  <!-- CONTACT US SECTION -->
+  <section class="contact">
+    <div class="container">
+      <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, veritatis? Architecto
+        inventore nisi maxime suscipit libero iste aliquam, sequi, reiciendis quia temporibus voluptatem! Ad sit, modi
+        autem placeat hic doloremque.</p>
+
+
+      <div class="row contact-info">
+        <div class="col-md-6" data-aos="fade-right">
+
+          <ul>
+            <li class="h4"><span>Email: </span>Example@shustravel.com</li>
+            <li class="h4"><span>phone: </span>(0552)555555</li>
+          </ul>
         </div>
-      </li>
-      <li><a href="about-egypt.html">egypt</a></li>
-      <li><a href="contact.html" class="active">contact us</a></li>
-    </ul>
-  </div>
-</nav>
 
-  
+        <div class="col-md-6">
+
+          <ul class="social-media" data-aos="fade-left">
+            <li><a href=""><i class="fab fa-facebook-square fa-3x"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter-square fa-3x"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram fa-3x"></i></li></a></li>
+          </ul>
+        </div>
+      </div>
+      <h2 class="h-head text-center">we are here to help you</h2>
+      <form class="row form-contact" data-aos="zoom-out">
+
+        <!-- FULL NAME -->
+        <div class="input-group mb-3 col-md-6">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Name" aria-label="Name"
+            aria-describedby="basic-addon1" />
+        </div>
+
+        <!-- EMAIL -->
+        <div class="input-group mb-3 col-md-6">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+          </div>
+          <input type="email" class="form-control" placeholder="Email" aria-label="Email"
+            aria-describedby="basic-addon1" />
+        </div>
+
+        <!-- PHONE NUMBER -->
+        <div class="input-group mb-3 col-md-6">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+          </div>
+          <input type="number" class="form-control" placeholder="Phone Number" aria-label="Phone Number"
+            aria-describedby="basic-addon1" />
+        </div>
+
+        <!-- NATIONALITY -->
+        <div class="input-group mb-3 col-md-6">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-flag"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Nationality" aria-label="Nationality"
+            aria-describedby="basic-addon1" />
+        </div>
+
+        <!-- Text Aria -->
+        <div class="input-group">
+          <textarea class="form-control" placeholder="we're listening" rows="5" cols="50"></textarea>
+        </div>
+        <!-- SUBMIT BUTTON -->
+        <div class="col text-center">
+          <button class="btn btn-primary">SEND US</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
   <!-- FOOTER SECTION -->
   <footer>
     <div class="row text-center">
@@ -85,23 +155,23 @@
       <div class="section col-md-4">
         <p class="tag-head h2">follow us</p>
         <ul class="social-media">
-        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+          <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
 
-        <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+          <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
 
           <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
         </ul>
       </div>
     </div>
   </footer>
-    <!-- COPYRIGHT FOOTER -->
-    <div class="footer-bottom text-center">
-      <ul>
-        <li><a href="">Terms & Conditions</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><span class="copyright">&copy; <span id="copy-date"> </span> Shus Travel</span></li>
-      </ul>
-    </div>
+  <!-- COPYRIGHT FOOTER -->
+  <div class="footer-bottom text-center">
+    <ul>
+      <li><a href="">Terms & Conditions</a></li>
+      <li><a href="">Privacy Policy</a></li>
+      <li><span class="copyright">&copy; <span id="copy-date"> </span> Shus Travel</span></li>
+    </ul>
+  </div>
 
 
 
@@ -109,6 +179,10 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/func.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

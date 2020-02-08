@@ -128,16 +128,130 @@ h6 {
   border-radius: 0;
 }
 
+ /* LOADER */
+ .demo
+ {
+  overflow-y: hidden
+ }
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+}
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: var(--first-color);
+  animation: spin 2s linear infinite;
+  z-index: 1001;
+}
+
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: var(--secound-color);
+  animation: spin 3s linear infinite;
+}
+
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: var(--third-color);
+  animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loader-wrapper .loader-section {
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  background: #987D66;
+  z-index: 1000;
+  transform: translateX(0);
+}
+
+#loader-wrapper .loader-section.section-left {
+  left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+  right: 0;
+}
+
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+  transform: translateX(-100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+  transform: translateX(100%);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.loaded #loader {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.loaded #loader-wrapper {
+  visibility: hidden;
+  transform: translateY(-100%); 
+  transition: all 0.3s 1s ease-out;
+}
 
 
 /* NAVBAR SECTION */
 .navbar {
-  padding: 10px;
-  background: #fff;
+  background: #dbe6f7;
   box-sizing: border-box;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-family: "Acme", sans-serif;
   
+}
+
+.fixed-top
+{
+  z-index: 5;
 }
 
 .navbar .navbar-brand img {
@@ -186,8 +300,8 @@ h6 {
 }
 
 .navbar-size-md {
-  background-color: rgb(250, 248, 244, 0.7);
-  padding: 4px;
+  background-color: rgb(219, 230, 247, 0.7);
+  padding: 2px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.7s;
 }
@@ -415,30 +529,30 @@ footer .social-media li a .fa-instagram:hover
 /* ********************************************************** */
 
 /* PACKAGES PAGE */
-.packages-head {
+.packages-head
+{
   position: relative;
-  background: url(../images/packages.jpg); 
-  background-size: cover;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
-  margin-top: 80px;
-} 
+  background: url(../images/packages.jpg) no-repeat center;
+  background-size: cover;
+}
 
-.packages-head .img-packages {
+.packages-head .img-packages
+{
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-} 
+
+}
 
 .packages-head .img-packages .h-head {
-  font-size: 55px;
+  font-size: 60px;
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 } 
- 
-
  
 .info {
   padding-top: 40px;
@@ -459,17 +573,10 @@ footer .social-media li a .fa-instagram:hover
   position: relative;
   background: url(../images/packdetails.jpg);
   background-size: cover;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
 }
 
-.package-head .img-pack {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-}
 .nav-details {
   box-shadow: none;
   font-size: 20px;
@@ -541,29 +648,31 @@ footer .social-media li a .fa-instagram:hover
 
 /* ********************************************************** */
 /* SERVICES PAGE */
-.services-head {
+.services-head
+{
   position: relative;
-  background: url(../images/services.jpg);
-  background-size: cover;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
-  margin-bottom: 30px;
-  margin-top: 80px;
+  background: url(../images/services.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 50px;
 }
 
-.services-head .img-services {
+.services-head .img-services
+{
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
+
 }
 
 .services-head .img-services .h-head {
-  font-size: 55px;
+  font-size: 60px;
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
-}
+} 
 .serv-component
 {
   margin-bottom: 80px;
@@ -579,29 +688,31 @@ footer .social-media li a .fa-instagram:hover
 }
 /* ********************************************************** */
 /* CRUISES PAGE */
-.crz-head {
+.crz-head
+{
   position: relative;
-  background: url(../images/nile\ cruise.jpg);
-  background-size: cover;
-  height: 700px;
+  height: 600px;
   overflow: hidden;
-  margin-bottom: 40px;
-  margin-top: 80px;
+  background: url(../images/nile\ cruise.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 50px;
 }
 
-.crz-head .img-crz {
+.crz-head .img-crz
+{
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
+
 }
 
 .crz-head .img-crz .h-head {
-  font-size: 55px;
+  font-size: 60px;
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
-}
+} 
 .crz-info
 {
   margin-bottom: 80px;
@@ -629,5 +740,82 @@ footer .social-media li a .fa-instagram:hover
 }
 
 /* ********************************************************** */
+.contact-head
+{
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  background: url(../images/contact-us.jpg) no-repeat center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
 
-/* CONTACT US PAGE */
+.contact-head .img-contact
+{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+}
+
+.contact-head .img-contact .h-head {
+  font-size: 60px;
+  text-transform: capitalize;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.contact .contact-info
+{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contact .contact-info ul .h4{
+  color: var(--third-color);
+}
+
+.contact .contact-info ul .h4 span{
+  color: var(--first-color);
+}
+ 
+.contact .contact-info .social-media
+{
+  display: inline-flex;
+  border-left: 3px solid var(--secound-color);
+}
+
+.contact .contact-info .social-media li a
+{
+  padding-right: 20px;
+  color: #AAA;
+}
+
+.contact .contact-info li a .fa-facebook-square:hover
+{
+  color: #3b5998;
+  transition: 0.7s ease-in-out;
+}
+
+.contact .social-media li a .fa-twitter-square:hover
+{
+  color: #1DA1F2;
+  transition: 0.7s ease-in-out;
+}
+
+.contact .social-media li a .fa-instagram:hover
+{
+  color: #833AB4;
+  transition: 0.7s ease-in-out;
+}
+
+.form-contact
+{
+  margin-bottom: 50px;
+}
+
+.form-contact .col
+{
+  margin-top: 20px;
+}

@@ -1,389 +1,387 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <title>ShusTravel | Home</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <body>
-    <!-- NAVBAR SECTION -->
-    <nav
-      class="navbar fixed-top navbar-color-ghost"
-      data-startColor="navbar-color-ghost"
-      data-intoSize="navbar-size-md"
-    >
-      <a class="navbar-brand" href="index.html"><img src="images/logo.png"/></a>
+  <title>ShusTravel | Home</title>
+   
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
 
-      <div class="menu-toggle hamburger" id="hamburger-11">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
+<body class="demo">
+
+  <!-- LOADER -->
+  <div id="demo-content">
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <!-- NAVBAR SECTION -->
+  <nav class="navbar fixed-top navbar-color-ghost" data-startColor="navbar-color-ghost" data-intoSize="navbar-size-md">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+
+    <div class="menu-toggle hamburger" id="hamburger-11">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+
+    <div class="items">
+      <ul>
+        <li><a href="index.html" class="active">home</a></li>
+        <!-- DropDown Menu For Tours -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            tours
+          </a>
+          <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="packages.html">packages</a>
+            <a class="dropdown-item" href="cruises.html">cruises</a>
+            <a class="dropdown-item" href="services.html">services</a>
+          </div>
+        </li>
+        <li><a href="about-egypt.html">egypt</a></li>
+        <li><a href="contact.html">contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SLIDER SECTION -->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/slide1.jpg" class="d-block w-100" alt="...">
       </div>
 
-      <div class="items">
-        <ul>
-          <li><a href="index.html" class="active">home</a></li>
-          <!-- DropDown Menu For Tours -->
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              tours
-            </a>
-            <div
-              class="dropdown-menu dropdown-nav"
-              aria-labelledby="navbarDropdown"
-            >
-              <a class="dropdown-item" href="packages.html">packages</a>
-              <a class="dropdown-item" href="cruises.html">cruises</a>
-              <a class="dropdown-item" href="services.html">services</a>
+      <div class="carousel-item">
+        <img src="images/slide2.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/slide3.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/slide4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!-- DESTINATION SECTION -->
+  <section class="destination">
+    <div class="container">
+      <h1 class="text-center h-head">
+        popular <span class="h-colored">destination</span>
+      </h1>
+
+      <div class="row">
+        <!-- First Dest -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 300
+              </h5>
+              <img src="images/card1.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">cairo by night</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
             </div>
-          </li>
-          <li><a href="about-egypt.html">egypt</a></li>
-          <li><a href="contact.html">contact us</a></li>
-        </ul>
-      </div>
-    </nav>
+          </a>
+        </div>
+        <!-- Secound Dest -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/card2.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo, giza</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
 
-    <!-- SLIDER SECTION -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/slide1.jpg" class="d-block w-100" alt="...">
+                <h5 class="card-title mb-2">8 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Third Dest -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/card3.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">luxor, aswan</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
+
+                <h5 class="card-title mb-2">9 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Fourth Dest -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/card4.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo, giza</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
+
+                <h5 class="card-title mb-2">9 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Fifth Dest -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/card5.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo, giza</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
+
+                <h5 class="card-title mb-2">9 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
 
-        <div class="carousel-item">
-          <img src="images/slide2.jpg" class="d-block w-100" alt="...">
-        </div>
+        <!-- Sixth Dest -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/card6.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo, giza</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
 
-        <div class="carousel-item">
-          <img src="images/slide3.jpg" class="d-block w-100" alt="...">
-        </div>
-
-        <div class="carousel-item">
-          <img src="images/slide4.jpg" class="d-block w-100" alt="...">
+                <h5 class="card-title mb-2">9 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
+  </section>
+  <hr />
 
-    <!-- DESTINATION SECTION -->
-    <section class="destination">
-      <div class="container">
-        <h1 class="text-center h-head">
-          popular <span class="h-colored">destination</span>
-        </h1>
+  <!-- ABOUT-US SECTION -->
+  <section class="text-center about-us" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <div class="container">
+      <h1 class="text-center h-head">
+        who we <span class="h-colored">are</span>
+      </h1>
+      <p class="text-center about-txt">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, esse
+        nesciunt! Quisquam porro maiores, eligendi inventore sunt vero
+        obcaecati perferendis saepe cumque. Commodi eaque aliquid soluta
+        consequatur, impedit laborum libero Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Nam, esse nesciunt! Quisquam porro
+        maiores, eligendi inventore sunt vero obcaecati perferendis saepe
+        cumque. Commodi eaque aliquid soluta consequatur, impedit laborum
+        libero
+      </p>
 
-        <div class="row">
-          <!-- First Dest -->
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 300
-                </h5>
-                <img src="images/card1.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">cairo</h5>
-                  <h5 class="card-title">cairo by night</h5>
-  
-                  <h5 class="card-title mb-2">3 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Secound Dest -->
-          <div class="col-md-4">
-            <a href="package-details.html" >
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 750
-                </h5>
-                <img src="images/card2.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">cairo, giza</h5>
-                  <h5 class="card-title">Pyramids & Nile by Air</h5>
-  
-                  <h5 class="card-title mb-2">8 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Third Dest -->
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 750
-                </h5>
-                <img src="images/card3.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">luxor, aswan</h5>
-                  <h5 class="card-title">Pyramids & Nile by Air</h5>
-  
-                  <h5 class="card-title mb-2">9 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Fourth Dest -->
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 750
-                </h5>
-                <img src="images/card4.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">cairo, giza</h5>
-                  <h5 class="card-title">Pyramids & Nile by Air</h5>
-  
-                  <h5 class="card-title mb-2">9 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <!-- Fifth Dest -->
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 750
-                </h5>
-                <img src="images/card5.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">cairo, giza</h5>
-                  <h5 class="card-title">Pyramids & Nile by Air</h5>
-  
-                  <h5 class="card-title mb-2">9 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
+      <h2 class="h-head">
+        why <span class="h-colored">Shus Travel</span>
+      </h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+        perspiciatis provident iusto laudantium reiciendis consectetur labore,
+        error, dolore assumenda obcaecati saepe, necessitatibus quae ab
+        laboriosam aperiam repellat amet atque tempora.
+      </p>
+    </div>
+  </section>
+  <hr />
+  <!-- ONE DAY TOUR SECTION -->
+  <section class="one-dy-tor" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+  data-aos-offset="0">
+    <div class="container">
+      <h1 class="text-center h-head">
+        one <span class="h-colored">day tour</span>
+      </h1>
 
-          <!-- Sixth Dest -->
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 750
-                </h5>
-                <img src="images/card6.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">cairo, giza</h5>
-                  <h5 class="card-title">Pyramids & Nile by Air</h5>
-  
-                  <h5 class="card-title mb-2">9 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 300
+              </h5>
+              <img src="images/card1.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo</h5>
+                <h5 class="card-title">cairo by night</h5>
+
+                <h5 class="card-title mb-2">3 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/card2.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">cairo, giza</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
+
+                <h5 class="card-title mb-2">8 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="package-details.html">
+            <div class="card">
+              <h5 class="float-right price">
+                from <i class="fas fa-dollar-sign fa-xs"></i> 750
+              </h5>
+              <img src="images/card3.jpg" class="card-img-top" alt="photo" />
+              <div class="card-body">
+                <h5 class="card-title float-right">luxor, aswan</h5>
+                <h5 class="card-title">Pyramids & Nile by Air</h5>
+
+                <h5 class="card-title mb-2">9 Days</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
-    </section>
-    <hr />
-
-    <!-- ABOUT-US SECTION -->
-    <section class="text-center about-us">
-      <div class="container">
-        <h1 class="text-center h-head">
-          who we <span class="h-colored">are</span>
-        </h1>
-        <p class="text-center about-txt">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, esse
-          nesciunt! Quisquam porro maiores, eligendi inventore sunt vero
-          obcaecati perferendis saepe cumque. Commodi eaque aliquid soluta
-          consequatur, impedit laborum libero Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Nam, esse nesciunt! Quisquam porro
-          maiores, eligendi inventore sunt vero obcaecati perferendis saepe
-          cumque. Commodi eaque aliquid soluta consequatur, impedit laborum
-          libero
-        </p>
-
-        <h2 class="h-head">
-          why <span class="h-colored">Shus Travel</span>
-        </h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-          perspiciatis provident iusto laudantium reiciendis consectetur labore,
-          error, dolore assumenda obcaecati saepe, necessitatibus quae ab
-          laboriosam aperiam repellat amet atque tempora.
-        </p>
+    </div>
+  </section>
+  <!-- FOOTER SECTION -->
+  <footer>
+    <div class="row text-center">
+      <div class="section col-md-4">
+        <ul>
+          <li class="tag-head h2">our tours</li>
+          <li><a href="packages.html">one day tours</a></li>
+          <li><a href="packages.html">packages</a></li>
+          <li><a href="cruises.html">cruises</a></li>
+          <li><a href="about-egypt.html">egypt</a></li>
+        </ul>
       </div>
-    </section>
-    <hr />
-    <!-- ONE DAY TOUR SECTION -->
-    <section class="one-dy-tor">
-      <div class="container">
-        <h1 class="text-center h-head">
-          one <span class="h-colored">day tour</span>
-        </h1>
 
-        <div class="row">
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 300
-                </h5>
-                <img src="images/card1.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">cairo</h5>
-                  <h5 class="card-title">cairo by night</h5>
-  
-                  <h5 class="card-title mb-2">3 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 750
-                </h5>
-                <img src="images/card2.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">cairo, giza</h5>
-                  <h5 class="card-title">Pyramids & Nile by Air</h5>
-  
-                  <h5 class="card-title mb-2">8 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="package-details.html">
-              <div class="card">
-                <h5 class="float-right price">
-                  from <i class="fas fa-dollar-sign fa-xs"></i> 750
-                </h5>
-                <img src="images/card3.jpg" class="card-img-top" alt="photo" />
-                <div class="card-body">
-                  <h5 class="card-title float-right">luxor, aswan</h5>
-                  <h5 class="card-title">Pyramids & Nile by Air</h5>
-  
-                  <h5 class="card-title mb-2">9 Days</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
+      <div class="section col-md-4">
+        <ul>
+          <li class="tag-head h2">our services</li>
+          <li><a href="services.html">hotel reservation</a></li>
+          <li><a href="services.html">meet & assist</a></li>
+          <li><a href="services.html">transfer</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
       </div>
-    </section>
-    <!-- FOOTER SECTION -->
-    <footer>
-      <div class="row text-center">
-        <div class="section col-md-4">
-          <ul>
-            <li class="tag-head h2">our tours</li>
-            <li><a href="packages.html">one day tours</a></li>
-            <li><a href="packages.html">packages</a></li>
-            <li><a href="cruises.html">cruises</a></li>
-            <li><a href="about-egypt.html">egypt</a></li>
-          </ul>
-        </div>
 
-        <div class="section col-md-4">
-          <ul>
-            <li class="tag-head h2">our services</li>
-            <li><a href="services.html">hotel reservation</a></li>
-            <li><a href="services.html">meet & assist</a></li>
-            <li><a href="services.html">transfer</a></li>
-            <li><a href="contact.html">contact us</a></li>
-          </ul>
-        </div>
-
-        <div class="section col-md-4">
-          <p class="tag-head h2">follow us</p>
-          <ul class="social-media">
+      <div class="section col-md-4">
+        <p class="tag-head h2">follow us</p>
+        <ul class="social-media">
           <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
 
           <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
 
-            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-      <!-- COPYRIGHT FOOTER -->
-      <div class="footer-bottom text-center">
-        <ul>
-          <li><a href="">Terms & Conditions</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><span class="copyright">&copy; <span id="copy-date"> </span> Shus Travel</span></li>
+          <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
         </ul>
       </div>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/func.js"></script>
-  </body>
+    </div>
+  </footer>
+  <!-- COPYRIGHT FOOTER -->
+  <div class="footer-bottom text-center">
+    <ul>
+      <li><a href="">Terms & Conditions</a></li>
+      <li><a href="">Privacy Policy</a></li>
+      <li><span class="copyright">&copy; <span id="copy-date"> </span> Shus Travel</span></li>
+    </ul>
+  </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/func.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
 </html>

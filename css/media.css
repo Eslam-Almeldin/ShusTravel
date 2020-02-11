@@ -1,4 +1,128 @@
 /* THIS IS MEDIA QUERIES FOR MOBILE & TABLETS AND BIG MONITORS */
+@media (min-width: 320px) and (max-width: 399px)
+{
+  p {
+    font-size: 16px;
+  }
+  /* HOME PAGE */
+  .navbar {
+    padding: 0;
+  }
+
+  .carousel {
+    margin-top: 65px;
+  }
+
+  .h-head {
+    padding: 35px;
+    font-size: 17px;
+  }
+
+  .footer-bottom ul li a {
+    font-size: 5px;
+  }
+
+  .footer-bottom ul li {
+    font-size: 5px;
+  }
+
+  .section {
+    font-size: 15px;
+  }
+  .tag-head {
+    font-size: 28px;
+  }
+
+  /* PACKAGES PAGE */
+
+  .packages-head .img-packages {
+    top: 70%;
+    left: 40%;
+  }
+
+  .packages-head .img-packages .h-head {
+    font-size: 19px;
+  }
+
+  .info h2 {
+    font-size: 20px;
+  }
+
+  /* PACKAGE DETAILS PAGE */
+  .nav-details {
+    font-size: 16px;
+  }
+  .nav-link {
+    padding: 1rem 7px;
+  }
+
+  .pack-detail {
+    font-size: 27px;
+  }
+  .day {
+    font-size: 24px;
+  }
+
+  .breadcrumb a {
+    font-size: 15px;
+  }
+  .breadcrumb-item.active {
+    font-size: 15px;
+  }
+  .form-reg {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* CRZ PAGE */
+  .crz-head .img-crz {
+    top: 70%;
+    left: 40%;
+  }
+
+  .crz-head .img-crz .h-head {
+    font-size: 26px;
+  }
+
+  /* SERVICES PAGE */
+  .services-head .img-services {
+    top: 70%;
+    left: 40%;
+  }
+  .services-head .img-services .h-head {
+    font-size: 24px;
+  }
+
+  /* EGYPT PAGE */
+  .egypt img {
+    margin-top: 65px;
+  }
+
+  .egypt p {
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  /* CONTACT US PAGE */
+  .contact-head .img-contact {
+    top: 70%;
+    left: 40%;
+  }
+  .contact-head .img-contact .h-head {
+    font-size: 27px;
+  }
+
+  .contact .contact-info .social-media {
+    border-left: none;
+  }
+
+  .contact .contact-info ul .h4
+  {
+    font-size: 17px;
+  }
+}
+
+
 @media (min-width: 400px) and (max-width: 499px) {
   p {
     font-size: 16px;

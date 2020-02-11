@@ -7,159 +7,175 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <title>ShusTravel | Egypt</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
-  <!-- NAVBAR SECTION -->
-  <nav class="navbar fixed-top navbar-color-ghost" data-startColor="navbar-color-ghost" data-intoSize="navbar-size-md">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
-
-    <div class="menu-toggle hamburger" id="hamburger-11">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
+<body class="demo">
+  <div id="demo-content">
+    <!-- LOADER -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
     </div>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar fixed-top navbar-color-ghost" data-startColor="navbar-color-ghost"
+      data-intoSize="navbar-size-md">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
 
-    <div class="items">
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <!-- DropDown Menu For Tours -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            tours
-          </a>
-          <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="packages.html">packages</a>
-            <a class="dropdown-item" href="cruises.html">cruises</a>
-            <a class="dropdown-item" href="services.html">services</a>
-          </div>
-        </li>
-        <li><a href="about-egypt.html" class="active">egypt</a></li>
-        <li><a href="contact.html">contact us</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- EGYPT -->
-
-  <section class="egypt">
-    <img src="images/slide1.jpg" alt="nile cruise" style="width: 100%;" />
-    <div class="container" data-aos="flip-right">
-      <h2 class="h-head text-center">
-        discover <span class="h-colored">egypt</span>
-      </h2>
-
-      <p class="text-center">
-        Egypt has one of the longest histories of any country, tracing its
-        heritage back to the 6th–4th millennia BCE. Considered a cradle of
-        civilisation, Ancient Egypt saw some of the earliest developments of
-        writing, agriculture, urbanisation, organised religion and central
-        government. Iconic monuments such as the Giza Necropolis and its Great
-        Sphinx, as well the ruins of Memphis, Thebes, Karnak, and the Valley
-        of the Kings, reflect this legacy and remain a significant focus of
-        scientific and popular interest. Egypt's long and rich cultural
-        heritage is an integral part of its national identity, which has
-        endured, and often assimilated, various foreign influences, including
-        Greek, Persian, Roman, Arab, Ottoman Turkish, and Nubian. Egypt was an
-        early and important centre of Christianity, but was largely Islamised
-        in the seventh century and remains a predominantly Muslim country,
-        albeit with a significant Christian minority. From the 16th to the
-        beginning of the 20th century, Egypt was ruled by foreign imperial
-        powers: The Ottoman Empire and the British Empire. Modern Egypt dates
-        back to 1922, when it gained nominal independence from the British
-        Empire as a monarchy. However, British military occupation of Egypt
-        continued, and many Egyptians believed that the monarchy was an
-        instrument of British colonialism. Following the 1952 revolution,
-        Egypt expelled British soldiers and bureaucrats and ended British
-        occupation, nationalized the British-held Suez Canal, exiled King
-        Farouk and his family, and declared itself a republic. In 1958 it
-        merged with Syria to form the United Arab Republic, which dissolved in
-        1961. Throughout the second half of the 20th century, Egypt endured
-        social and religious strife and political instability, fighting
-        several armed conflicts with Israel in 1948, 1956, 1967 and 1973, and
-        occupying the Gaza Strip intermittently until 1967. In 1978, Egypt
-        signed the Camp David Accords, officially withdrawing from the Gaza
-        Strip and recognising Israel. The country continues to face
-        challenges, from political unrest, including the recent 2011
-        revolution and its aftermath, to terrorism and economic
-        underdevelopment. Egypt's current government is a semi-presidential
-        republic headed by President Abdel Fattah el-Sisi, which has been
-        described by a number of watchdogs as authoritarian. Islam is the
-        official religion of Egypt and Arabic is its official language. With
-        over 95 million inhabitants, Egypt is the most populous country in
-        North Africa, the Middle East, and the Arab world, the third-most
-        populous in Africa , and the fifteenth-most populous in the world. The
-        great majority of its people live near the banks of the Nile River, an
-        area of about 40,000 square kilometres, where the only arable land is
-        found. The large regions of the Sahara desert, which constitute most
-        of Egypt's territory, are sparsely inhabited. About half of Egypt's
-        residents live in urban areas, with most spread across the densely
-        populated centres of greater Cairo, Alexandria and other major cities
-        in the Nile Delta. The sovereign state of Egypt is a transcontinental
-        country considered to be a regional power in North Africa, the Middle
-        East and the Muslim world, and a middle power worldwide. Egypt's
-        economy is one of the largest and most diversified in the Middle East,
-        and is projected to become one of the largest in the world in the 21st
-        century. In 2016, Egypt overtook South Africa and became Africa's
-        second largest economy . Egypt is a founding member of the United
-        Nations, Non-Aligned Movement, Arab League, African Union, and
-        Organisation of Islamic Cooperation.
-      </p>
-    </div>
-  </section>
-
-  <!-- FOOTER SECTION -->
-  <footer>
-    <div class="row text-center">
-      <div class="section col-md-4">
-        <ul>
-          <li class="tag-head h2">our tours</li>
-          <li><a href="packages.html">one day tours</a></li>
-          <li><a href="packages.html">packages</a></li>
-          <li><a href="cruises.html">cruises</a></li>
-          <li><a href="about-egypt.html">egypt</a></li>
-        </ul>
+      <div class="menu-toggle hamburger" id="hamburger-11">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
       </div>
 
-      <div class="section col-md-4">
+      <div class="items">
         <ul>
-          <li class="tag-head h2">our services</li>
-          <li><a href="services.html">hotel reservation</a></li>
-          <li><a href="services.html">meet & assist</a></li>
-          <li><a href="services.html">transfer</a></li>
+          <li><a href="index.html">home</a></li>
+          <!-- DropDown Menu For Tours -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              tours
+            </a>
+            <div class="dropdown-menu dropdown-nav" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="packages.html">packages</a>
+              <a class="dropdown-item" href="cruises.html">cruises</a>
+              <a class="dropdown-item" href="services.html">services</a>
+            </div>
+          </li>
+          <li><a href="about-egypt.html" class="active">egypt</a></li>
           <li><a href="contact.html">contact us</a></li>
         </ul>
       </div>
+    </nav>
 
-      <div class="section col-md-4">
-        <p class="tag-head h2">follow us</p>
-        <ul class="social-media">
-          <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+    <!-- EGYPT -->
 
-          <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+    <section class="egypt">
+      <img src="images/slide1.jpg" alt="nile cruise" style="width: 100%;" />
+      <div class="container" data-aos="flip-right">
+        <h2 class="h-head text-center">
+          discover <span class="h-colored">egypt</span>
+        </h2>
 
-          <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
-        </ul>
+        <p class="text-center">
+          Egypt has one of the longest histories of any country, tracing its
+          heritage back to the 6th–4th millennia BCE. Considered a cradle of
+          civilisation, Ancient Egypt saw some of the earliest developments of
+          writing, agriculture, urbanisation, organised religion and central
+          government. Iconic monuments such as the Giza Necropolis and its Great
+          Sphinx, as well the ruins of Memphis, Thebes, Karnak, and the Valley
+          of the Kings, reflect this legacy and remain a significant focus of
+          scientific and popular interest. Egypt's long and rich cultural
+          heritage is an integral part of its national identity, which has
+          endured, and often assimilated, various foreign influences, including
+          Greek, Persian, Roman, Arab, Ottoman Turkish, and Nubian. Egypt was an
+          early and important centre of Christianity, but was largely Islamised
+          in the seventh century and remains a predominantly Muslim country,
+          albeit with a significant Christian minority. From the 16th to the
+          beginning of the 20th century, Egypt was ruled by foreign imperial
+          powers: The Ottoman Empire and the British Empire. Modern Egypt dates
+          back to 1922, when it gained nominal independence from the British
+          Empire as a monarchy. However, British military occupation of Egypt
+          continued, and many Egyptians believed that the monarchy was an
+          instrument of British colonialism. Following the 1952 revolution,
+          Egypt expelled British soldiers and bureaucrats and ended British
+          occupation, nationalized the British-held Suez Canal, exiled King
+          Farouk and his family, and declared itself a republic. In 1958 it
+          merged with Syria to form the United Arab Republic, which dissolved in
+          1961. Throughout the second half of the 20th century, Egypt endured
+          social and religious strife and political instability, fighting
+          several armed conflicts with Israel in 1948, 1956, 1967 and 1973, and
+          occupying the Gaza Strip intermittently until 1967. In 1978, Egypt
+          signed the Camp David Accords, officially withdrawing from the Gaza
+          Strip and recognising Israel. The country continues to face
+          challenges, from political unrest, including the recent 2011
+          revolution and its aftermath, to terrorism and economic
+          underdevelopment. Egypt's current government is a semi-presidential
+          republic headed by President Abdel Fattah el-Sisi, which has been
+          described by a number of watchdogs as authoritarian. Islam is the
+          official religion of Egypt and Arabic is its official language. With
+          over 95 million inhabitants, Egypt is the most populous country in
+          North Africa, the Middle East, and the Arab world, the third-most
+          populous in Africa , and the fifteenth-most populous in the world. The
+          great majority of its people live near the banks of the Nile River, an
+          area of about 40,000 square kilometres, where the only arable land is
+          found. The large regions of the Sahara desert, which constitute most
+          of Egypt's territory, are sparsely inhabited. About half of Egypt's
+          residents live in urban areas, with most spread across the densely
+          populated centres of greater Cairo, Alexandria and other major cities
+          in the Nile Delta. The sovereign state of Egypt is a transcontinental
+          country considered to be a regional power in North Africa, the Middle
+          East and the Muslim world, and a middle power worldwide. Egypt's
+          economy is one of the largest and most diversified in the Middle East,
+          and is projected to become one of the largest in the world in the 21st
+          century. In 2016, Egypt overtook South Africa and became Africa's
+          second largest economy . Egypt is a founding member of the United
+          Nations, Non-Aligned Movement, Arab League, African Union, and
+          Organisation of Islamic Cooperation.
+        </p>
       </div>
-    </div>
-  </footer>
-  <!-- COPYRIGHT FOOTER -->
-  <div class="footer-bottom text-center">
-    <ul>
-      <li><a href="">Terms & Conditions</a></li>
-      <li><a href="">Privacy Policy</a></li>
-      <li><span class="copyright">&copy; <span id="copy-date"> </span> Shus Travel</span></li>
-    </ul>
-  </div>
+    </section>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/bootstrap.min.js"></script>
+    <!-- FOOTER SECTION -->
+    <footer>
+      <div class="row text-center">
+        <div class="section col-md-4">
+          <ul>
+            <li class="tag-head h2">our tours</li>
+            <li><a href="packages.html">one day tours</a></li>
+            <li><a href="packages.html">packages</a></li>
+            <li><a href="cruises.html">cruises</a></li>
+            <li><a href="about-egypt.html">egypt</a></li>
+          </ul>
+        </div>
+
+        <div class="section col-md-4">
+          <ul>
+            <li class="tag-head h2">our services</li>
+            <li><a href="services.html">hotel reservation</a></li>
+            <li><a href="services.html">meet & assist</a></li>
+            <li><a href="services.html">transfer</a></li>
+            <li><a href="contact.html">contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="section col-md-4">
+          <p class="tag-head h2">follow us</p>
+          <ul class="social-media">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- COPYRIGHT FOOTER -->
+    <div class="footer-bottom text-center">
+      <ul>
+        <li><a href="">Terms & Conditions</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><span class="copyright">&copy; <span id="copy-date"> </span> Shus Travel</span></li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
   <script src="js/func.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

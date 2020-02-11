@@ -128,11 +128,10 @@ h6 {
   border-radius: 0;
 }
 
- /* LOADER */
- .demo
- {
-  overflow-y: hidden
- }
+/* LOADER */
+.demo {
+  overflow-y: hidden;
+}
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -204,7 +203,7 @@ h6 {
   top: 0;
   width: 51%;
   height: 100%;
-  background: #987D66;
+  background: #987d66;
   z-index: 1000;
   transform: translateX(0);
 }
@@ -235,10 +234,9 @@ h6 {
 }
 .loaded #loader-wrapper {
   visibility: hidden;
-  transform: translateY(-100%); 
+  transform: translateY(-100%);
   transition: all 0.3s 1s ease-out;
 }
-
 
 /* NAVBAR SECTION */
 .navbar {
@@ -246,12 +244,10 @@ h6 {
   box-sizing: border-box;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-family: "Acme", sans-serif;
-  
 }
 
-.fixed-top
-{
-  z-index: 5;
+.fixed-top {
+  z-index: 10;
 }
 
 .navbar .navbar-brand img {
@@ -407,15 +403,13 @@ h6 {
 }
 
 /* SLIDER SECTION */
-.carousel
-{
+.carousel {
   margin-top: 80px;
 }
- 
+
 /* DESTINATION SECTION */
 .destination {
   padding: 20px;
-   
 }
 
 /* ABOUT US SECTION */
@@ -436,101 +430,78 @@ h6 {
 }
 
 /* FOOTER SECTION */
-footer
-{
- padding: 20px;
- background:#dbe6f7;
- width: 100%;
+footer {
+  padding: 20px;
+  background: #dbe6f7;
+  width: 100%;
 }
 
-.tag-head
-{
+.tag-head {
   color: var(--first-color);
   font-family: "Acme", sans-serif;
 }
 
-.section
-{
+.section {
   text-transform: capitalize;
   font-size: 16px;
 }
 
-.section ul li a
-{
+.section ul li a {
   color: var(--third-color);
   font-weight: 500;
-
 }
- 
-footer .social-media
-{
+
+footer .social-media {
   display: inline-flex;
   padding-right: 33px;
 }
 
-footer .social-media li
-{
+footer .social-media li {
   margin: 5px;
 }
 
-footer .social-media li a i
-{
-  color: #AAA;
+footer .social-media li a i {
+  color: #aaa;
 }
 
-
-footer .social-media li a .fa-facebook-square:hover
-{
+footer .social-media li a .fa-facebook-square:hover {
   color: #3b5998;
   transition: 0.7s ease-in-out;
 }
 
-footer .social-media li a .fa-twitter-square:hover
-{
-  color: #1DA1F2;
+footer .social-media li a .fa-twitter-square:hover {
+  color: #1da1f2;
   transition: 0.7s ease-in-out;
 }
 
-footer .social-media li a .fa-instagram:hover
-{
-  color: #833AB4;
+footer .social-media li a .fa-instagram:hover {
+  color: #833ab4;
   transition: 0.7s ease-in-out;
 }
 
-
-.footer-bottom
-{
+.footer-bottom {
   padding: 15px;
   background: #597b8c;
 }
 
-.footer-bottom ul
-{
+.footer-bottom ul {
   display: inline-flex;
 }
-.footer-bottom ul li
-{
+.footer-bottom ul li {
   padding: 10px;
 }
-.footer-bottom ul li a
-{
-  color: #FFF;
+.footer-bottom ul li a {
+  color: #fff;
 }
 
-.footer-bottom .copyright
-{
-  color: #FFF;
-  font-weight: 500;
+.footer-bottom .copyright {
+  color: #fff;
 }
- 
- 
-
 
 /* ********************************************************** */
 
 /* PACKAGES PAGE */
-.packages-head
-{
+.packages-head {
   position: relative;
   height: 600px;
   overflow: hidden;
@@ -538,22 +509,20 @@ footer .social-media li a .fa-instagram:hover
   background-size: cover;
 }
 
-.packages-head .img-packages
-{
+.packages-head .img-packages {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-
 }
 
 .packages-head .img-packages .h-head {
   font-size: 60px;
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
-} 
- 
+}
+
 .info {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -611,8 +580,7 @@ footer .social-media li a .fa-instagram:hover
   padding-bottom: 15px;
   color: var(--first-color);
 }
-.packages
-{
+.packages {
   margin-bottom: 80px;
 }
 .day {
@@ -641,15 +609,13 @@ footer .social-media li a .fa-instagram:hover
 }
 
 .form-reg button {
-  
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 /* ********************************************************** */
 /* SERVICES PAGE */
-.services-head
-{
+.services-head {
   position: relative;
   height: 600px;
   overflow: hidden;
@@ -658,38 +624,33 @@ footer .social-media li a .fa-instagram:hover
   margin-bottom: 50px;
 }
 
-.services-head .img-services
-{
+.services-head .img-services {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-
 }
 
 .services-head .img-services .h-head {
   font-size: 60px;
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
-} 
-.serv-component
-{
+}
+.serv-component {
   margin-bottom: 80px;
 }
 .serv-component p {
   margin-bottom: 50px;
 }
 
-.serv-component .reg-form button
-{
+.serv-component .reg-form button {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 /* ********************************************************** */
 /* CRUISES PAGE */
-.crz-head
-{
+.crz-head {
   position: relative;
   height: 600px;
   overflow: hidden;
@@ -698,23 +659,20 @@ footer .social-media li a .fa-instagram:hover
   margin-bottom: 50px;
 }
 
-.crz-head .img-crz
-{
+.crz-head .img-crz {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-
 }
 
 .crz-head .img-crz .h-head {
   font-size: 60px;
   text-transform: capitalize;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
-} 
-.crz-info
-{
+}
+.crz-info {
   margin-bottom: 80px;
 }
 .crz-info p {
@@ -723,12 +681,10 @@ footer .social-media li a .fa-instagram:hover
 
 /* ********************************************************** */
 /* ABOUT EGYPT PAGE */
-.egypt
-{
+.egypt {
   margin-bottom: 80px;
 }
-.egypt img
-{
+.egypt img {
   margin-top: 80px;
 }
 .egypt p {
@@ -740,8 +696,7 @@ footer .social-media li a .fa-instagram:hover
 }
 
 /* ********************************************************** */
-.contact-head
-{
+.contact-head {
   position: relative;
   height: 800px;
   overflow: hidden;
@@ -750,14 +705,12 @@ footer .social-media li a .fa-instagram:hover
   margin-bottom: 50px;
 }
 
-.contact-head .img-contact
-{
+.contact-head .img-contact {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-
 }
 
 .contact-head .img-contact .h-head {
@@ -766,56 +719,48 @@ footer .social-media li a .fa-instagram:hover
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-.contact .contact-info
-{
+.contact .contact-info {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.contact .contact-info ul .h4{
+.contact .contact-info ul .h4 {
   color: var(--third-color);
 }
 
-.contact .contact-info ul .h4 span{
+.contact .contact-info ul .h4 span {
   color: var(--first-color);
 }
- 
-.contact .contact-info .social-media
-{
+
+.contact .contact-info .social-media {
   display: inline-flex;
   border-left: 3px solid var(--secound-color);
 }
 
-.contact .contact-info .social-media li a
-{
+.contact .contact-info .social-media li a {
   padding-right: 20px;
-  color: #AAA;
+  color: #aaa;
 }
 
-.contact .contact-info li a .fa-facebook-square:hover
-{
+.contact .contact-info li a .fa-facebook-square:hover {
   color: #3b5998;
   transition: 0.7s ease-in-out;
 }
 
-.contact .social-media li a .fa-twitter-square:hover
-{
-  color: #1DA1F2;
+.contact .social-media li a .fa-twitter-square:hover {
+  color: #1da1f2;
   transition: 0.7s ease-in-out;
 }
 
-.contact .social-media li a .fa-instagram:hover
-{
-  color: #833AB4;
+.contact .social-media li a .fa-instagram:hover {
+  color: #833ab4;
   transition: 0.7s ease-in-out;
 }
 
-.form-contact
-{
+.form-contact {
   margin-bottom: 50px;
 }
 
-.form-contact .col
-{
+.form-contact .col {
   margin-top: 20px;
 }

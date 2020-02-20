@@ -1,6 +1,5 @@
 /* THIS IS MEDIA QUERIES FOR MOBILE & TABLETS AND BIG MONITORS */
-@media (min-width: 320px) and (max-width: 399px)
-{
+@media (min-width: 320px) and (max-width: 399px) {
   p {
     font-size: 16px;
   }
@@ -19,13 +18,18 @@
   }
 
   .footer-bottom ul li a {
-    font-size: 5px;
+    font-size: 14px;
   }
 
   .footer-bottom ul li {
-    font-size: 5px;
+    text-align: center;
+    font-size: 14px;
   }
 
+  .footer-bottom ul {
+    display: block;
+    padding: 1px;
+  }
   .section {
     font-size: 15px;
   }
@@ -41,7 +45,8 @@
   }
 
   .packages-head .img-packages .h-head {
-    font-size: 19px;
+    font-size: 35px;
+    padding: 0;
   }
 
   .info h2 {
@@ -81,7 +86,8 @@
   }
 
   .crz-head .img-crz .h-head {
-    font-size: 26px;
+    font-size: 35px;
+    padding: 0;
   }
 
   /* SERVICES PAGE */
@@ -90,7 +96,8 @@
     left: 40%;
   }
   .services-head .img-services .h-head {
-    font-size: 24px;
+    font-size: 35px;
+    padding: 0;
   }
 
   /* EGYPT PAGE */
@@ -109,19 +116,18 @@
     left: 40%;
   }
   .contact-head .img-contact .h-head {
-    font-size: 27px;
+    font-size: 35px;
+    padding: 0;
   }
 
   .contact .contact-info .social-media {
     border-left: none;
   }
 
-  .contact .contact-info ul .h4
-  {
+  .contact .contact-info ul .h4 {
     font-size: 17px;
   }
 }
-
 
 @media (min-width: 400px) and (max-width: 499px) {
   p {

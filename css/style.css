@@ -655,7 +655,7 @@ footer .social-media li a .fa-instagram:hover {
   position: relative;
   height: 600px;
   overflow: hidden;
-  background: url(../images/nile\cruise.jpg) no-repeat center;
+  background: url(../images/nile\ cruise.jpg) no-repeat center;
   background-size: cover;
   margin-bottom: 50px;
 }
